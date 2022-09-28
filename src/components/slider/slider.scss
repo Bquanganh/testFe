@@ -1,0 +1,21 @@
+.slider-img{
+    z-index: -2;
+    -webkit-mask-image: linear-gradient(180deg,#000,transparent);
+    
+    .slick-next{
+        right: 10px;
+        z-index: 100px;
+    }
+    img{
+        height: 280px;
+    }
+}
+
+button.slick-arrow.slick-prev {
+    left: 10px !important;
+    z-index: 100 !important;
+}
+button.slick-arrow.slick-next {
+    right: 10px !important;
+    z-index: 100 !important;
+}
