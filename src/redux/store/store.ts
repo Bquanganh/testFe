@@ -1,12 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch, TypedUseSelectorHook, useSelector } from 'react-redux';
 import { productSlice } from '../sliceReducer/productSlice'
-import { sumProductSlice } from '../sliceReducer/sumPriceSlice'
 
 const store = configureStore({
     reducer:{
-        products:productSlice.reducer,
-        sumPrice:sumProductSlice.reducer
+        products:productSlice.reducer
     }
 })
 

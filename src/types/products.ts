@@ -4,5 +4,5 @@ export interface ProductModel {
     price:number,
     rating:number,
     img:string,
-    status:string
+    status?:string
 }
